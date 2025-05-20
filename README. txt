@@ -1,0 +1,40 @@
+1
+Type ! in a blank .html and file press Tab or Enter . This will instantly generate the full HTML5 boilerplate. Alterantively, you can type html:5 and the press
+2
+The DOCTYPE in HTML is a declaration at the very top of an HTML document that tells the browser which version of HTML the page is written in. Its mian purpose is to ensure the browser renders the page correctly by using the proper standards mode rather than  quirks mode.
+
+3
+A void element in HTML is an element that cannot have any child nodes or content—it only has a start tag and does not require (or allow) an end tag. These are sometimes called empty elements.
+
+Examples of void elements include:
+<br> (line break)
+<img> (image)
+<input> (input field)
+<hr> (horizontal rule)
+<meta> (metadata)
+
+4 
+(Element and Attributes)
+HTML Elements are the building blocks of a webpage and consist of a start tag, content, and an end tag (for example, <p>This is a paragraph.</p>). Elements define what content appears on the page, such as headings, paragraphs, images, or links.
+HTML Attributes provide additional information about elements and are always included in the opening tag. Attributes modify or control the behavior and appearance of elements. They are written as name/value pairs like name="value" (for example, <a href="https://example.com">Link</a>, where href is the attribute).
+
+5
+HTML entities are special codes or character references used in HTML to represent reserved, special, or invisible characters that either have a specific meaning in HTML or are not available on a standard keyboard. For example, the less-than symbol < is written as &lt; in HTML to prevent the browser from confusing it with the start of a tag.
+
+ HTML entities needed
+To display reserved characters (like <, >, &) that have special meanings in HTML code.
+To show special or accented characters not found on a standard keyboard (like ©, ®, €).
+To insert invisible or formatting characters, such as non-breaking spaces (&nbsp;).
+
+6
+
+Meta tags are HTML elements used to provide metadata (data about data) about an HTML document. They reside within the <head> section of an HTML page and are not displayed directly on the page itself.
+Why are meta tags used?
+Search Engine Optimization (SEO): Meta tags provide information to search engines about the page's content, keywords, and description, helping them to index the page correctly and display relevant results to users.
+Specifying Document Information: They can define the character set, author, and other document-level metadata.
+Controlling Viewport Settings: Meta tags are used to set the viewport for responsive web design, ensuring the page displays correctly on different devices.
+Providing HTTP Headers: Meta tags can emulate HTTP respon…
+7
+The best way to add images to a website is by using the <img> tag in HTML, which requires at least two key attributes:
+src (the image file path or URL)
+alt (a text description for accessibility and SEO).
